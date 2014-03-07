@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="sk.test.first.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="sk.test.first.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="sk.test.first.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
